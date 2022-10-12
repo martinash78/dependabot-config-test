@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/martinash78/dependabot-config-test#readme",
   "dependencies": {
-    "serverless": "^2.0.0"
+    "serverless": "^3.23.0"
   }
 }
