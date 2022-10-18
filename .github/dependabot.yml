@@ -7,7 +7,7 @@ version: 2
 registries:
   npm-npmjs:
     type: npm-registry
-    url: https://www.npmjs.com/package/@lifeworks/aws-sdk-helpers
+    url: https://www.npmjs.com/org/lifeworks
     username: martinash78
     token: ${{secrets.NPM_ACCESS_TOKEN}}
 updates:
