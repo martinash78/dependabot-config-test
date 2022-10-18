@@ -5,7 +5,7 @@
 
 version: 2
 registries:
-  npm-npmjs:
+  lifeworks-npm:
     type: npm-registry
     url: https://www.npmjs.com
     username: martinash78
@@ -14,7 +14,7 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     registries:
-      - npm-npmjs
+      - lifeworks-npm
     schedule:
       interval: "weekly"
     ignore:
