@@ -13,6 +13,8 @@ registries:
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
+    registries:
+      - npm-npmjs
     schedule:
       interval: "weekly"
     ignore:
