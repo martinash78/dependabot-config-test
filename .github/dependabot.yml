@@ -7,7 +7,7 @@ version: 2
 registries:
   lifeworks-npm:
     type: npm-registry
-    url: https://www.npmjs.com
+    url: https://www.npmjs.com/org/lifeworks
     token: ${{secrets.NPM_ACCESS_TOKEN}}
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
