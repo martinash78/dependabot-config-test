@@ -8,7 +8,7 @@ registries:
   lifeworks-npm:
     type: npm-registry
     url: https://www.npmjs.com/org/lifeworks
-    token: ${{secrets.PUBLISH_TOKEN}}
+    token: ${{secrets.LOCAL_GIT_TOKEN}}
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
