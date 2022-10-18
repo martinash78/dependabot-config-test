@@ -9,7 +9,7 @@ registries:
     type: npm-registry
     url: https://registry.npmjs.org
     username: martinash78
-    token: ${{secrets.NPM_ACCESS_TOKEN}}
+    password: ${{secrets.NPM_ACCESS_TOKEN}}
 updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
