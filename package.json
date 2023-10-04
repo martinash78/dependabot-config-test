@@ -20,6 +20,6 @@
     "@lifeworks/aws-sdk-helpers": "^6.16.0",
     "get-func-name": "^2.0.0",
     "graphql": "^14.0.0",
-    "serverless": "^2.72.3"
+    "serverless": "^3.35.2"
   }
 }
